@@ -5,9 +5,11 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/antonosika?style=social)](https://twitter.com/AntonOsika)
 
 
-**Specify what you want it to build, the AI asks for clarification, and then builds it.**
+**Specify the Flutter app you want it to build, the AI asks for clarification, and then builds it.**
 
 GPT Engineer is made to be easy to adapt, extend, and make your agent learn how you want your code to look. It generates an entire codebase based on a prompt.
+
+Tested with Flutter and Flutter Engineer GPT is able to create a working tic-tac-toe app in 1 shot.
 
 [Demo](https://twitter.com/antonosika/status/1667641038104674306)
 
@@ -50,6 +52,7 @@ Alternative for Windows
 - Create an empty folder. If inside the repo, you can run:
   - `cp -r projects/example/ projects/my-new-project`
 - Fill in the `prompt` file in your new folder
+- Run flutter create . in the workspace folder to initialize Flutter project
 - `gpt-engineer projects/my-new-project`
   - (Note, `gpt-engineer --help` lets you see all available options. For example `--steps use_feedback` lets you improve/fix code in a project)
 
