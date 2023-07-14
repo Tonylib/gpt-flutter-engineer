@@ -15,7 +15,8 @@ CODE
 
 Please note that the code should be fully functional. No placeholders.
 
-You will start with the "entrypoint" file, then go to the ones that are imported by that file, and so on.
+You will start with the "main.dart" file, then go to the ones that are imported by that file, and so on.
 Follow a language and framework appropriate best practice file naming convention.
 Make sure that files contain all imports, types etc. The code should be fully functional. Make sure that code in different files are compatible with each other.
+Make sure that the pubspec.yaml file is also included and contains all dependencies.
 Before you finish, double check that all parts of the architecture is present in the files.
